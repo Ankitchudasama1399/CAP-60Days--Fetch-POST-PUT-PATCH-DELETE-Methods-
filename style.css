@@ -1,0 +1,19 @@
+#count {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+}
+
+#count>div {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#count>div>img {
+  width: 80px;
+}
